@@ -8,7 +8,7 @@ public class Login extends JFrame implements ActionListener {
     JTextField username, password;
     JButton login, cancel;
 
-    
+
     Login() {
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
