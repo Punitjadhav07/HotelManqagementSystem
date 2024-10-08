@@ -6,14 +6,17 @@ public class conn {
 
     public conn() {
         try {
-            Class.forName("com.mysql.jdbc.Driver");
-            c = DriverManager.getConnection("jdbc:mysql:///hms", "root", "");
+
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotelmanagementsystem", "root", "Punitjadhav07");
+
 
             s = c.createStatement();
 
-
         } catch (Exception e) {
-            System.out.println(e);
+            e.printStackTrace();
         }
     }
 }
