@@ -41,7 +41,7 @@ public class NewCustomer extends JFrame {
         setContentPane(contentPane);
         contentPane.setLayout(null);
 
-        ImageIcon i1  = new ImageIcon(ClassLoader.getSystemResource("hotel/management/system/icons/fifth.png"));
+        ImageIcon i1  = new ImageIcon(ClassLoader.getSystemResource("customer.png"));
         Image i3 = i1.getImage().getScaledInstance(300, 400,Image.SCALE_DEFAULT);
         ImageIcon i2 = new ImageIcon(i3);
         JLabel l1 = new JLabel(i2);
