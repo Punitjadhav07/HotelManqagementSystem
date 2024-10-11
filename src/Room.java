@@ -41,7 +41,6 @@ public class Room extends JFrame {
 
 
     public Room() throws SQLException {
-        //conn = Javaconnect.getDBConnection();
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(450, 200, 1100, 600);
         contentPane = new JPanel();
@@ -49,13 +48,12 @@ public class Room extends JFrame {
         setContentPane(contentPane);
         contentPane.setLayout(null);
 
-        ImageIcon i1  = new ImageIcon(ClassLoader.getSystemResource("room.jpg"));
-        Image i3 = i1.getImage().getScaledInstance(600, 600,Image.SCALE_DEFAULT);
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("room.jpg"));
+        Image i3 = i1.getImage().getScaledInstance(600, 600, Image.SCALE_DEFAULT);
         ImageIcon i2 = new ImageIcon(i3);
         JLabel l1 = new JLabel(i2);
-        l1.setBounds(500,0,600,600);
+        l1.setBounds(500, 0, 600, 600);
         add(l1);
-
 
         table = new JTable();
         table.setBounds(0, 40, 500, 400);
@@ -64,23 +62,19 @@ public class Room extends JFrame {
         JButton btnLoadData = new JButton("Load Data");
         btnLoadData.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                try{
+                try {
                     conn c = new conn();
-                    String displayCustomersql = "select * from Room";
-                    //PreparedStatement pst = conn.prepareStatement(displayCustomersql);
+                    String displayCustomersql = "select roomnumber, availability, cleaning_status, price, bed_type from room";
                     ResultSet rs = c.s.executeQuery(displayCustomersql);
                     table.setModel(DbUtils.resultSetToTableModel(rs));
-
-
-                }
-                catch(Exception e1){
+                } catch (Exception e1) {
                     e1.printStackTrace();
                 }
             }
         });
         btnLoadData.setBounds(100, 470, 120, 30);
         btnLoadData.setBackground(Color.BLACK);
-        btnLoadData.setForeground(Color.WHITE);
+        btnLoadData.setForeground(Color.BLACK);
         contentPane.add(btnLoadData);
 
         JButton btnNewButton = new JButton("Back");
@@ -92,7 +86,7 @@ public class Room extends JFrame {
         });
         btnNewButton.setBounds(290, 470, 120, 30);
         btnNewButton.setBackground(Color.BLACK);
-        btnNewButton.setForeground(Color.WHITE);
+        btnNewButton.setForeground(Color.BLACK);
         contentPane.add(btnNewButton);
 
         lblAvailability = new JLabel("Availability");
@@ -111,12 +105,10 @@ public class Room extends JFrame {
         lblNewLabel_1.setBounds(417, 15, 76, 14);
         contentPane.add(lblNewLabel_1);
 
-
         lblId = new JLabel("Room Number");
         lblId.setBounds(12, 15, 90, 14);
         contentPane.add(lblId);
 
         getContentPane().setBackground(Color.WHITE);
     }
-
 }

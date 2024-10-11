@@ -127,7 +127,7 @@ public class UpdateRoom extends JFrame {
         });
         b1.setBounds(120, 315, 89, 23);
         b1.setBackground(Color.BLACK);
-        b1.setForeground(Color.WHITE);
+        b1.setForeground(Color.BLACK);
         contentPane.add(b1);
 
         JButton btnUpdate = new JButton("Update");

@@ -142,7 +142,7 @@ public class CheckOut extends JFrame{
         });
         btnCheckOut.setBounds(50, 200, 100, 25);
         btnCheckOut.setBackground(Color.BLACK);
-        btnCheckOut.setForeground(Color.WHITE);
+        btnCheckOut.setForeground(Color.BLACK);
         contentPane.add(btnCheckOut);
 
         JButton btnExit = new JButton("Back");
@@ -154,7 +154,7 @@ public class CheckOut extends JFrame{
         });
         btnExit.setBounds(160, 200, 100, 25);
         btnExit.setBackground(Color.BLACK);
-        btnExit.setForeground(Color.WHITE);
+        btnExit.setForeground(Color.BLACK);
         contentPane.add(btnExit);
 
 

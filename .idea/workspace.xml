@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9efd0e0-1fcf-4f0a-af1d-8b9908ac53ba" name="Changes" comment="init commit" />
+    <list default="true" id="c9efd0e0-1fcf-4f0a-af1d-8b9908ac53ba" name="Changes" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddDrivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddDrivers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpdateCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UpdateCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpdateRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UpdateRoom.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +66,9 @@
     "Application.NewCustomer.executor": "Run",
     "Application.PickUp.executor": "Run",
     "Application.Reception.executor": "Run",
+    "Application.Room.executor": "Run",
+    "Application.SearchRoom.executor": "Run",
+    "Application.UpdateRoom.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -182,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728386419919</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1728386806832</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728386806832</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

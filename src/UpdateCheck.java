@@ -151,7 +151,7 @@ public class UpdateCheck extends JFrame {
         });
         btnUpdate.setBounds(168, 378, 89, 23);
         btnUpdate.setBackground(Color.BLACK);
-        btnUpdate.setForeground(Color.WHITE);
+        btnUpdate.setForeground(Color.BLACK);
         contentPane.add(btnUpdate);
 
         JButton btnExit = new JButton("Back");
@@ -163,7 +163,7 @@ public class UpdateCheck extends JFrame {
         });
         btnExit.setBounds(281, 378, 89, 23);
         btnExit.setBackground(Color.BLACK);
-        btnExit.setForeground(Color.WHITE);
+        btnExit.setForeground(Color.BLACK);
         contentPane.add(btnExit);
 
         JButton btnAdd = new JButton("Check");
@@ -200,7 +200,7 @@ public class UpdateCheck extends JFrame {
         });
         btnAdd.setBounds(56, 378, 89, 23);
         btnAdd.setBackground(Color.BLACK);
-        btnAdd.setForeground(Color.WHITE);
+        btnAdd.setForeground(Color.BLACK);
         contentPane.add(btnAdd);
 
         getContentPane().setBackground(Color.WHITE);

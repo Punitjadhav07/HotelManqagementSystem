@@ -134,6 +134,7 @@ public class AddDrivers extends JFrame implements ActionListener{
 
 
         contentPane.setBackground(Color.WHITE);
+        setResizable(false);
 
     }
 
