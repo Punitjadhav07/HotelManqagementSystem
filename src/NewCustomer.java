@@ -187,7 +187,7 @@ public class NewCustomer extends JFrame {
         });
         btnNewButton.setBounds(100, 430, 120, 30);
         btnNewButton.setBackground(Color.BLACK);
-        btnNewButton.setForeground(Color.WHITE);
+        btnNewButton.setForeground(Color.BLACK);
         contentPane.add(btnNewButton);
 
         JButton btnExit = new JButton("Back");
@@ -199,7 +199,7 @@ public class NewCustomer extends JFrame {
         });
         btnExit.setBounds(260, 430, 120, 30);
         btnExit.setBackground(Color.BLACK);
-        btnExit.setForeground(Color.WHITE);
+        btnExit.setForeground(Color.BLACK);
         contentPane.add(btnExit);
 
         getContentPane().setBackground(Color.WHITE);

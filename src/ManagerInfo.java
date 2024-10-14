@@ -74,7 +74,7 @@ public class ManagerInfo extends JFrame {
         });
         btnLoadData.setBounds(350, 500, 120, 30);
         btnLoadData.setBackground(Color.BLACK);
-        btnLoadData.setForeground(Color.WHITE);
+        btnLoadData.setForeground(Color.BLACK);
         contentPane.add(btnLoadData);
 
         JButton btnExit = new JButton("Back");
@@ -86,7 +86,7 @@ public class ManagerInfo extends JFrame {
         });
         btnExit.setBounds(510, 500, 120, 30);
         btnExit.setBackground(Color.BLACK);
-        btnExit.setForeground(Color.WHITE);
+        btnExit.setForeground(Color.BLACK);
         contentPane.add(btnExit);
 
         lblNewLabel = new JLabel("Name");

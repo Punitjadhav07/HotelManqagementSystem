@@ -76,7 +76,7 @@ public class CheckOut extends JFrame{
         c1.setBounds(130, 82, 150, 20);
         contentPane.add(c1);
 
-        ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("hotel/management/system/icons/tick.png"));
+        ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("checkout.jpg"));
         Image i5 = i4.getImage().getScaledInstance(20, 20,Image.SCALE_DEFAULT);
         ImageIcon i6 = new ImageIcon(i5);
         JButton l2 = new JButton(i6);
